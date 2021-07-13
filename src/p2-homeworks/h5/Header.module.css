@@ -1,0 +1,50 @@
+
+.nav {
+    display: flex;
+    position: relative;
+    width: 250px;
+    left: -195px;
+    transition: all 600ms;
+}
+
+.linkActive {
+    color: white;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.btn {
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border: 1px solid black;
+    position: absolute;
+    top: 5px;
+    left: 200px;
+}
+
+.btn:hover {
+    background-color: cornflowerblue;
+}
+
+a:hover {
+    color: green;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.active {
+    left: 0px;
+}
