@@ -6,6 +6,7 @@ import HW3 from "../../../p2-homeworks/h3/HW3";
 import HW4 from "../../../p2-homeworks/h4/HW4";
 import HW5 from "../../../p2-homeworks/h5/HW5";
 
+
 function App() {
     return (
         <div className={s.App}>
@@ -15,6 +16,7 @@ function App() {
             {/*<HW3/>*/}
             {/*<HW4/>*/}
             <HW5/>
+
 
         </div>
     )
